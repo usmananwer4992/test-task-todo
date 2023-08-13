@@ -1,0 +1,99 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 70px;
+  color: #2c3e50;
+  font-weight: 200;
+}
+
+input {
+  font-size: 20px;
+  color: #2c3e50;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #2c3e50;
+  padding: 5px;
+}
+
+.task {
+  background-color: #ccd8e4;
+  padding: 15px;
+  margin: 5px;
+  overflow-x: hidden; 
+  border: none;
+  outline: none;
+  border-left: 5px solid #2c3e50;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task span {
+  color: #34495e;
+}
+
+.delete {
+  float: right;
+}
+.delete button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+article {
+  display: grid;
+}
+.create-button {
+  background-color: #34495e;
+  padding: 15px;
+  margin: 5px;
+  margin-left: 43px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+
+}
+ .add-new {
+  background-color: #34495e;
+  padding: 15px;
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+
+}
+ .all-tasks {
+  background-color: #fff;
+  padding: 15px;
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid #34495e;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #34495e;
+}
+ .all-tasks:hover {
+  background-color: #34495e;
+  color: #fff;
+}
+
+.success-alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 5px;
+  z-index: 999; /* Ensure the alert is displayed above other content */
+}
